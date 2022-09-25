@@ -14,9 +14,7 @@ import com.willyramad.notes.room.NoteDatabase
 
 class AddNoteFragment : Fragment() {
     lateinit var binding : FragmentAddNoteBinding
-    lateinit var spA : SharedPreferences
     val viewModel : NoteViewModel by viewModels()
-    var DBNote : NoteDatabase? = null
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

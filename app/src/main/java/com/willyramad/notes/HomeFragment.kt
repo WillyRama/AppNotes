@@ -19,7 +19,6 @@ class HomeFragment : Fragment() {
     lateinit var binding : FragmentHomeBinding
     lateinit var spH : SharedPreferences
      val viewModel : NoteViewModel by viewModels()
-    lateinit var    adapter: NotesAdapter
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
