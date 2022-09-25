@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DeleteFragment">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anda yakin ingin menghapus?"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnhapus"
+        android:text="Hapus"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/text"
+        android:backgroundTint="@color/merah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnbatal"
+        android:text="Batal"
+        android:layout_below="@id/text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
